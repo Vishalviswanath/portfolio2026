@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+:root {
+    --color1: #282823;
+    --color2: #595c56;
+    --color3: #e9be5f;
+    --color4: #f5e8b6;
+    --color5: #0000;
+    --color6: #ffffff;
+    --color7: #5b1f0f;
+    --color8: #40150a;
+}
+
+body {
+    background: #282823;
+    color: white;
+    overflow-x: hidden;
+}
+
+
+.glass {
+    backdrop-filter: blur(14px);
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.gold-glow {
+    box-shadow: 0 0 25px rgba(233, 190, 95, 0.45);
+}
+
+.hover-gradient {
+    transition: all .35s ease;
+}
+
+.gradient {
+    background: linear-gradient(135deg,
+            rgba(233, 190, 95, 0.15),
+            rgba(245, 232, 182, 0.08));
+    border-color: var(--color3);
+}
+
+.hover-gradient:hover {
+    background: linear-gradient(135deg,
+            rgba(233, 190, 95, 0.15),
+            rgba(245, 232, 182, 0.08));
+    border-color: var(--color3);
+    transform: translateY(-6px);
+}
+
+nav a:hover span {
+    width: 100%;
+}
