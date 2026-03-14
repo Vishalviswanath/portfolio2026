@@ -11,7 +11,8 @@ import Skills from "./components/Skills";
 
 export default function Home() {
     return (
-        <div className='relative '>
+        <div className='relative pt-20'>
+
             <FloatingGrid />
             <Navbar />
             <Hero />

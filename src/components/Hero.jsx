@@ -3,7 +3,7 @@ import { CgArrowDown } from 'react-icons/cg';
 
 export default function Hero() {
   return (
-    <section className='h-svh flex items-center justify-center px-6'>
+    <section className='min-h-svh flex items-center justify-center px-6 pt-24 md:pt-20'>
       <div className='max-w-6xl mx-auto '>
         {/* MAIN GRID */}
 
